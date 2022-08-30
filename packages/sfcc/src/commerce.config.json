@@ -2,9 +2,9 @@
   "provider": "sfcc",
   "features": {
     "wishlist": false,
-    "cart": false,
+    "cart": true,
     "search": true,
-    "customerAuth": false,
+    "customerAuth": true,
     "customCheckout": false
   }
 }

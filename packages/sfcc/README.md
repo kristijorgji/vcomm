@@ -14,9 +14,9 @@ SalesForce Cloud Commerce Demo: https://salesforce-cloud-commerce.vercel.store/
   "provider": "sfcc",
   "features": {
     "wishlist": false,
-    "cart": false,
+    "cart": true,
     "search": true,
-    "customerAuth": false,
+    "customerAuth": true,
     "customCheckout": false
   }
 }

@@ -26,7 +26,10 @@ export async function getStaticProps({
 export default function Cart() {
   const error = null
   const success = null
+
   const { data, isLoading, isEmpty } = useCart()
+
+  console.log('cart cart', data);
   const { openSidebar, setSidebarView } = useUI()
 
   const { price: subTotal } = usePrice(
